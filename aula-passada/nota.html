@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de nota</title>
+</head>
+<body style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; display: flex; align-items: center; justify-content: center; margin-top: 120px;">
+    <div style="border: 3px solid black; text-align: center; padding: 30px; width: 400px;">
+        <form action="calcula_nota.php" method="post">
+            <h2>Verificador de nota</h2>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome aqui" required style="padding: 7px;"><br><br>
+
+            <label for="nome">Disciplina:</label><br>
+            <input type="text" id="disciplina" name="disciplina" placeholder="Digite a disciplina aqui" required style="padding: 7px;"><br><br>
+
+            <label for="nota">Digite a nota (0-10):</label><br>
+            <input type="text" id="nota" name="nota" placeholder="Digite a nota aqui"  required style="padding: 7px;"><br><br>
+
+            <button type="submit" style="padding: 7px; width: 100px;">Verificar</button><br><br>
+            <a href="http://localhost/DBRO's_site/projeto01/painel.php">Clique aqui para voltar ao início</a>
+        </form>
+    </div>
+</body>
+</html>
