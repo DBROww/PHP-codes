@@ -5,8 +5,10 @@
         <input type="text" name="usuario" style="padding: 7px;"> <br>
         Senha <br>
         <input type="password" name="senha" style="padding: 7px;"><br><br>
+        
+        <input type="submit" value="Entrar" style="padding: 7px; width: 100px; background-color: rgb(0, 140, 255); margin-top: -5px;">
 
-            <div style="font-size: 20; margin-top: -50px;">
+             <div style="font-size: 20; margin-top: -85px;">
             <?php
             //exibe uma mensagem de erro, se existir
             if (isset($_GET['msg'])) {
@@ -14,10 +16,6 @@
             }
             ?>
             </div>
-
-        <input type="submit" value="Entrar" style="padding: 7px; width: 100px; background-color: rgb(0, 140, 255); margin-top:-10px;">
     </div>
 </body>
 </form>
-
-
