@@ -1,0 +1,24 @@
+{
+    "professores": [
+        {
+            "nome": "Davi",
+            "email": "teste@teste.com",
+            "disciplina": "matematica"
+        },
+        {
+            "nome": "Davi",
+            "email": "teste@teste.com",
+            "disciplina": "matematica"
+        },
+        {
+            "nome": "Davi",
+            "email": "teste@teste.com",
+            "disciplina": "matematica"
+        },
+        {
+            "nome": "Davi",
+            "email": "teste@teste.com",
+            "disciplina": ""
+        }
+    ]
+}

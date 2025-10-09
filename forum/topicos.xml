@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topicos>
+  <topico>
+    <autor>teste@teste.com</autor>
+    <titulo>teste</titulo>
+    <mensagem>teste</mensagem>
+    <comentarios>
+      <comentario>
+        <nome>teste</nome>
+        <mensagem>teste</mensagem>
+      </comentario>
+    </comentarios>
+  </topico>
+</topicos>

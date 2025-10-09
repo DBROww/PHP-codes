@@ -1,0 +1,101 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(217, 217, 217);
+}
+.trava{
+    display: block;
+}
+.menu{
+    height: 400px;
+    width: 300px;
+    border: solid 2px;
+    border-radius: 8px; 
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 2px;
+}   
+
+.caixa{
+    border: solid 2px black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.botao{
+    text-align: center;
+    border-radius: 8px;
+    height: 35px;
+    width: 90px;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+
+.success-message{
+   
+    border: solid black 2px;
+    border-radius: 4px;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(45, 195, 97), rgb(38, 255, 0) );
+}
+.success-message a{
+    color: white;
+}
+
+#mensagem {
+    width: 200px;
+    height: 150px;
+}
+
+#login { 
+    margin-top: -50px;
+}
+
+.post-coment{ /* div que junta post + comentário */
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.post{ 
+    border: solid black 2px;
+    border-radius: 8px;
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+   
+}
+
+#titulo{
+    text-align: center;
+}
+
+#comentario{
+    width: 300px;
+    height: 170px;
+}
+
+.topicos{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: start;
+}
