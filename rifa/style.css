@@ -1,0 +1,103 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.form{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: radial-gradient(circle, rgb(224, 249, 255), rgb(255, 241, 89));
+    
+}
+
+form{
+    background-color: rgb(255, 255, 255);
+    border: solid black;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    height: 500px;
+    gap: 10px;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0, 0.5);
+}
+
+.ganhadores{
+    background-color: white;
+    border: solid black;
+    border-radius: 8px;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0, 0.5);
+    padding: 0px 15px 10px 15px;
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin-right: -500px;
+    margin-left: 200px;
+}
+.caixa{
+    border: solid  black;
+    border-radius: 8px;
+    width: 200px;
+    height: 25px;
+}
+
+.botao{
+    border: none;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    padding: 12px;
+}
+
+.titulo{
+    font-size: large;
+}
+
+.numero{
+    color: rgb(0, 158, 0);
+}
+
+.premio{
+    color: rgb(10, 10, 219);
+}
+
+.horario{
+    text-align: center;
+}
+
+.aproximar{
+    width: 450px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+p{
+    font-size: large;
+}
+
+.jasorteado{ 
+    color: red;
+}
